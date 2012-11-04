@@ -10,6 +10,7 @@
                     <tr>
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Twitter Handle</th>
                         <th>&nbsp;</th>
                     </tr>
                     </thead>
@@ -23,6 +24,7 @@
                             	</a>
                             </td>
                             <td>${contact.getField("email").value}</td>
+                            <td>${contact.getField("TwitterHandle__c").value}</td>
                             <td>
                             	
                             	<a href="#" onClick="SFDC.deleteSObjectRecord(	'${contact.metadata.name}', 

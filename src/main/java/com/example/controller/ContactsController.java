@@ -29,7 +29,7 @@ public class ContactsController {
 
     @RequestMapping("")
     public String listContacts(Map<String, Object> map) {
-     	map.put("contactList", salesforceService.query("select Id,FirstName,LastName,Email FROM Contact"));
+     	map.put("contactList", salesforceService.query("select Id,FirstName,LastName,Email,TwitterHandle__c FROM Contact"));
     	return "contacts";
     }
 
