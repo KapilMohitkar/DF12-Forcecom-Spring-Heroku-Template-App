@@ -6,6 +6,7 @@ http://alexdberg.blogspot.com/2012/11/sunday-project-forcecom-spring-app-on.html
 
 Here are some screenshots of what the very cool Eclipse Heroku Plugin looks like.
 
+![New Heroku Project Templates](https://raw.github.com/chexxor/DF12-Forcecom-Spring-Heroku-Template-App/master/images/NewHerokuProjectTemplates.png "New Heroku Project Templates")
 
 ![Heroku Environment Variables](https://raw.github.com/chexxor/DF12-Forcecom-Spring-Heroku-Template-App/master/images/HerokuEnvironmentVariables.png "Heroku Environment Variables")
 
